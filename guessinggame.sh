@@ -2,7 +2,7 @@
 fcount=$(ls -l | grep ^- | wc -l)
 
 #tell the user to guess the number of files
-echo "How many files are in this directory? Take a guess!"
+echo "How many files are in the current directory? Take a guess!"
 read response
 
 #function: check response against true count
