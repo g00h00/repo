@@ -1,5 +1,6 @@
 all:
-	echo "# Bash Programming Assignment: Guess the number of files\n" > README.md
+	echo "# Bash Programming Assignment:\n" > README.md
+	echo "## Guess the number of files\n" >> README.md
 	echo "Make was executed on:" >> README.md
 	date >> README.md
 	echo "\n" >> README.md
